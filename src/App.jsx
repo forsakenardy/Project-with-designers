@@ -32,7 +32,6 @@ function App() {
           <img className="iconartwork" src={IconArtwork} alt="" />
           <img className="bag" src={Bag} alt="" />
         </div>
-        <div></div>
       </div>
  
       <Link to='/'/>
