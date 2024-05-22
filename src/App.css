@@ -95,7 +95,6 @@ body {
 
 .girls {
     height: 100vw;
-    ;
 }
 
 .summermantra-page {
@@ -158,6 +157,12 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    cursor: pointer;
+}
+.sizes1:hover {
+    transition: 0.5s;
+    background-color: #000;
+    color: white;
 }
 .colors-container {
     display: flex;
@@ -172,9 +177,19 @@ body {
     background-color: #976168;
     border: none;
 }
+.color1:hover {
+    background-color: #976168;
+    transition: 0.5s;
+    border: 5px solid black;
+}
 .color2 {
     background-color: #7E795C;
     border: none;
+}
+.color2:hover {
+    background-color: #7E795C;
+    transition: 0.5s;
+    border: 5px solid black;
 }
 
 .colors-container button {
@@ -184,7 +199,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 7vh;
+    height: 7vw;
     gap: 6vw;
 }
 
@@ -202,6 +217,7 @@ line-height: normal;
     background-color: white;
     border-radius: 3vw;
     color: var(--Mobile-background, #000);
+    margin-bottom: 5vw;
 }
 
 .addbutton h2 {
@@ -213,6 +229,7 @@ font-weight: 500;
 line-height: normal;
 text-transform: uppercase;
 }
+
 
 .rectangle {
     margin-left: 33vw;
@@ -296,3 +313,4 @@ font-weight:normal;
     width: 44vw;
 
 }
+
