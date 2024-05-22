@@ -229,3 +229,88 @@ font-weight: 500;
 line-height: normal;
 text-transform: uppercase;
 }
+
+
+.rectangle {
+    margin-left: 33vw;
+    background-color: #000;
+    width: 34vw;
+    height: 1vh;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+    border-radius: 5vw;
+}
+
+
+/*categoryDresses*/
+
+.category-page-container{
+    padding-top: 2.5%;
+    padding-left: 4%;
+}
+.menuSelec {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 2vw;
+}
+.menu1 {
+  padding: 2vw 4vw;
+  border: 1px solid #dcdcdc;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: "Archivo Narrow";
+  font-size: 16px;
+  font-weight: 500;
+}
+.title1 {
+  text-align: center;
+  font-family: "Archivo Narrow";
+  font-size: 24px;
+  font-weight: 400;
+}
+.titles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  border-bottom: 1.5px solid black;
+  margin-right: 4%;
+
+  h2 {
+    font-family: "Archivo Narrow";
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+.card-dress-container{
+    margin-top: 1.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 4%;
+    gap: 2vw;
+
+
+    h1.description {
+    font-family: "Archivo Narrow";
+font-size: 16px;
+font-weight:normal;
+
+}
+  
+
+}
+.description-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:0.5vw;
+
+}
+.photo{
+    width: 44vw;
+
+}
+
