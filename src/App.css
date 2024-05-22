@@ -72,7 +72,7 @@ body {
     width: 100%;
 }
 
-.main2{
+.main2 {
     display: flex;
     flex-direction: row;
     gap: 2vw;
@@ -80,7 +80,8 @@ body {
     margin-bottom: 2vh;
     overflow-x: auto;
 }
-.best-sellers{
+
+.best-sellers {
     color: var(--Mobile-background, #000);
 
     text-align: center;
@@ -91,6 +92,76 @@ body {
     line-height: normal;
     text-transform: uppercase;
 }
+
 .girls {
-    height: 100vw;;
+    height: 100vw;
+    ;
+}
+
+.summermantra-page {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+.arrow {
+    width: 3vw;
+}
+
+.summermantra-stock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.summermantra-stock h1 {
+    color: var(--Mobile-background, #000);
+
+    font-family: "Archivo Narrow";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.summermantra-paragraph {
+    color: var(--Mobile-background, #000);
+    font-family: "Archivo Narrow";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sizes {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.sizes1 {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Mobile-background, #000);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.color1 {
+    background-color: #976168;
+    border: none;
+}
+.color2 {
+    background-color: #7E795C;
+    border: none;
 }
