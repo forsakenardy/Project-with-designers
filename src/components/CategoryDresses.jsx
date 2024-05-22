@@ -10,8 +10,8 @@ import image6 from "../assets/image1/6.svg"
 
 function CategoryDresses() {
   return (
-    <>
-      <div className="">
+    <div className="category-page-container">
+      <div className="menuSelec">
         <h1 className="menu1">SALE-60%</h1>
 
         <h1 className="menu1">BLOUSES</h1>
@@ -24,9 +24,9 @@ function CategoryDresses() {
 
         <h1 className="menu1">SHIRTS</h1>
 
-        <h1 className="menu1"></h1>
 
         <h1 className="menu1">SKIRTS</h1>
+      
 
         <h1 className="menu1">TOPS</h1>
 
@@ -34,39 +34,73 @@ function CategoryDresses() {
 
         <h1 className="menu1">ACCESSORIES</h1>
       </div>
-      <div className="cardDre">
-        <section className="dress-card-1">
-          <img className="" src={image1} alt=" Boho" />
-          <h1 className="descrption">DREES BOHO SOUL </h1>
-          <p>45 €</p>
+
+        <h1 className="title1">DRESSES</h1>
+
+      <div className="titles-container">
+        <h2>FILTER</h2>
+        <h2>SORT</h2>
+
+      </div>
+
+
+      <div className="card-dress-container">
+        <section className="dress-card">
+          <img className="photo" src={image1} alt=" Boho" />
+
+          <div className="description-price">
+          <h1 className="description">DRESS BOHO SOUL </h1>
+          <h1 className="description">45 € </h1>
+          </div>
+            
         </section>
-        <section className="dress-card-2">
-          <img className="" src={image2} alt=" Mantra" />
+        <section className="dress-card">
+          <img className="photo" src={image2} alt=" Mantra" />
+
+          <div className="description-price">
           <h1 className="description">SUMMER MANTRA </h1>
-          <p>55 €</p>
+          <h1 className="description">55 € </h1>
+          </div>
         </section>
-        <section className="dress-card-3">
-          <img className="" src={image3} alt="Minimal " />
-          <h1 className="descrption">DRESS MINIMAL</h1>
-          <p>45 €</p>
+        <section className="dress-card">
+          <img className="photo" src={image3} alt="Minimal " />
+
+          <div className="description-price">
+          <h1 className="description">DRESS MINIMAL</h1>
+          <h1 className="description">45 €</h1>
+          </div>
         </section>
-        <section className="dress-card-4">
-          <img className="" src={image4} alt=" Boho" />
-          <h1 className="descrption">DRESS OCEAN </h1>
-          <p>45 €</p>
+        <section className="dress-card">
+          <img className="photo" src={image4} alt="ocean" />
+
+          <div className="description-price">
+          <h1 className="description">DRESS OCEAN </h1>
+          <h1 className="description">45 €</h1>
+        
+          </div>
         </section>
-        <section className="dress-card-5">
-          <img className="" src={image5} alt=" Boho" />
-          <h1 className="descrption">DREES FREE SPIRIT </h1>
-          <p>50 €</p>
+        <section className="dress-card">
+          <img className="photo" src={image5} alt=" spirit" />
+
+          <div className="description-price">
+          <h1 className="description">DREES FREE SPIRIT </h1>
+          <h1 className="description">50 € </h1>
+        
+          </div>
         </section>
-        <section className="dress-card-1">
-          <img className="" src={image6} alt=" Boho" />
-          <h1 className="descrption">DREES GYPSY </h1>
-          <p>50 €</p>
+        <section className="dress-card">
+          <img className="photo" src={image6} alt=" Gypsy" />
+
+          <div className="description-price">
+          <h1 className="description">GYPSY DRESS </h1>
+          <h1 className="description">50 € </h1>
+
+          </div>
         </section>
       </div>
-    </>
+    </div>
   );
 }
 export default CategoryDresses;
+
+

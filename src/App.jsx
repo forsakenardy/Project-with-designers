@@ -8,6 +8,7 @@ import IconArtwork from "./assets/images/Icon-Artwork.svg"
 import Bag from "./assets/images/Bag.svg"
 import { Route, Routes, Link } from 'react-router-dom'
 import SummerMantra from './components/Summer-Mantra'
+import CategoryDresses from './components/CategoryDresses'
 
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/dress1' element={<SummerMantra />} />
-
+        <Route path='/categoryDresses' element={<CategoryDresses />} />
       </Routes>
 
       <div className='rectangle'></div>
