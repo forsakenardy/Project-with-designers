@@ -43,8 +43,6 @@ function App() {
         <Route path='/dress1' element={<SummerMantra />} />
         <Route path='/categoryDresses' element={<CategoryDresses />} />
       </Routes>
-
-      <div className='rectangle'></div>
     </>
   )
 }
