@@ -36,12 +36,14 @@ function App() {
  
       <Link to='/'/>
       <Link to='/dress1' />
-      <Link to='./categoryDresses' />
+      <Link to='/categoryDresses' />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/dress1' element={<SummerMantra />} />
 
       </Routes>
+
+      <div className='rectangle'></div>
     </>
   )
 }

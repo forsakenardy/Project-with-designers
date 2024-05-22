@@ -72,7 +72,7 @@ body {
     width: 100%;
 }
 
-.main2{
+.main2 {
     display: flex;
     flex-direction: row;
     gap: 2vw;
@@ -80,7 +80,8 @@ body {
     margin-bottom: 2vh;
     overflow-x: auto;
 }
-.best-sellers{
+
+.best-sellers {
     color: var(--Mobile-background, #000);
 
     text-align: center;
@@ -91,6 +92,134 @@ body {
     line-height: normal;
     text-transform: uppercase;
 }
+
 .girls {
-    height: 100vw;;
+    height: 100vw;
+    ;
+}
+
+.summermantra-page {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+.arrow {
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    margin-left: 4vw;
+    width: 3vw;
+}
+
+.summermantra-stock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.summermantra-stock h1 {
+    color: var(--Mobile-background, #000);
+
+    font-family: "Archivo Narrow";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.summermantra-paragraph {
+    color: var(--Mobile-background, #000);
+    font-family: "Archivo Narrow";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sizes {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.sizes1 {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Mobile-background, #000);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.colors-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:1.5vh;
+    margin-top: 2vh;
+}
+
+.color1 {
+    background-color: #976168;
+    border: none;
+}
+.color2 {
+    background-color: #7E795C;
+    border: none;
+}
+
+.colors-container button {
+    background-color: white;
+    border-radius: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    gap: 6vw;
+}
+
+.colors-container button h1 {
+color: var(--Mobile-background, #000);
+
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.addbutton {
+    background-color: white;
+    border-radius: 3vw;
+    color: var(--Mobile-background, #000);
+}
+
+.addbutton h2 {
+    text-align: center;
+font-family: "Archivo Narrow";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.rectangle {
+    margin-left: 33vw;
+    background-color: #000;
+    width: 34vw;
+    height: 1vh;
+    margin-top: 4vh;
+    margin-bottom: 1.5vh;
+    border-radius: 5vw;
 }
