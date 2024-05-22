@@ -42,6 +42,8 @@ function App() {
         <Route path='/dress1' element={<SummerMantra />} />
 
       </Routes>
+
+      <div className='rectangle'></div>
     </>
   )
 }
