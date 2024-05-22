@@ -9,9 +9,11 @@ import Bag from "./assets/images/Bag.svg"
 import { Route, Routes, Link } from 'react-router-dom'
 import SummerMantra from './components/Summer-Mantra'
 import CategoryDresses from './components/CategoryDresses'
+import AddToBag from './components/AddToBag'
 import close from "./assets/images/close.svg"
 import plus from "./assets/images/plus.svg"
 import { useState } from 'react'
+
 
 
 function App() {
@@ -55,6 +57,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='/dress1' element={<SummerMantra />} />
         <Route path='/categoryDresses' element={<CategoryDresses />} />
+        <Route path='/AddToBag' element={<AddToBag/>} />
       </Routes>
 
       <div className={isMenuPressed ? 'menu-show' : 'hidden'}>
@@ -88,4 +91,4 @@ function App() {
   )
 }
 
-export default App
+export default App; 
