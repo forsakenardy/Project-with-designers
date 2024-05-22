@@ -31,7 +31,6 @@ function App() {
           <img className="iconartwork" src={IconArtwork} alt="" />
           <img className="bag" src={Bag} alt="" />
         </div>
-        <div></div>
       </div>
  
       <Link to='/'/>
@@ -42,6 +41,8 @@ function App() {
         <Route path='/dress1' element={<SummerMantra />} />
 
       </Routes>
+
+      <div className='rectangle'></div>
     </>
   )
 }

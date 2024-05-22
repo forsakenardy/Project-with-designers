@@ -19,7 +19,7 @@ function SummerMantra() {
                     <div className="sizes1">XL</div>
                 </div>
                 <div className="colors-container">
-                    <div className="colors">
+                    <div className="sizes colors">
                         <div className="color1 sizes1"></div>
                         <div className="color2 sizes1"></div>
                     </div>
@@ -33,6 +33,7 @@ function SummerMantra() {
             <button className="addbutton">
                 <h2 >ADD TO BAG</h2>
             </button>
+        
         </div>
     )
 }
