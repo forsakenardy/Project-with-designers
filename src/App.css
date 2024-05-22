@@ -29,6 +29,7 @@ body {
 
 .menu {
     width: 6vw;
+    cursor: pointer;
 }
 
 .icons1-2 {
@@ -159,17 +160,19 @@ body {
     line-height: normal;
     cursor: pointer;
 }
+
 .sizes1:hover {
     transition: 0.5s;
     background-color: #000;
     color: white;
 }
+
 .colors-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom:1.5vh;
+    margin-bottom: 1.5vh;
     margin-top: 2vh;
 }
 
@@ -177,19 +180,20 @@ body {
     background-color: #976168;
     border: none;
 }
+
 .color1:hover {
     background-color: #976168;
-    transition: 0.5s;
-    border: 5px solid black;
+    border: 2px solid black;
 }
+
 .color2 {
     background-color: #7E795C;
     border: none;
 }
+
 .color2:hover {
     background-color: #7E795C;
-    transition: 0.5s;
-    border: 5px solid black;
+    border: 2px solid black;
 }
 
 .colors-container button {
@@ -204,13 +208,13 @@ body {
 }
 
 .colors-container button h1 {
-color: var(--Mobile-background, #000);
+    color: var(--Mobile-background, #000);
 
-font-family: Inter;
-font-size: 13px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .addbutton {
@@ -222,69 +226,63 @@ line-height: normal;
 
 .addbutton h2 {
     text-align: center;
-font-family: "Archivo Narrow";
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-transform: uppercase;
-}
-
-
-.rectangle {
-    margin-left: 33vw;
-    background-color: #000;
-    width: 34vw;
-    height: 1vh;
-    margin-top: 4vh;
-    margin-bottom: 1.5vh;
-    border-radius: 5vw;
+    font-family: "Archivo Narrow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 
 /*categoryDresses*/
 
-.category-page-container{
+.category-page-container {
     padding-top: 2.5%;
     padding-left: 4%;
 }
+
 .menuSelec {
-  display: flex;
-  flex-direction: row;
-  overflow-x: auto;
-  gap: 2vw;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 2vw;
 }
+
 .menu1 {
-  padding: 2vw 4vw;
-  border: 1px solid #dcdcdc;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  font-family: "Archivo Narrow";
-  font-size: 16px;
-  font-weight: 500;
-}
-.title1 {
-  text-align: center;
-  font-family: "Archivo Narrow";
-  font-size: 24px;
-  font-weight: 400;
-}
-.titles-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-  border-bottom: 1.5px solid black;
-  margin-right: 4%;
-
-  h2 {
+    padding: 2vw 4vw;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    text-align: center;
+    align-items: center;
     font-family: "Archivo Narrow";
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
-  }
 }
-.card-dress-container{
+
+.title1 {
+    text-align: center;
+    font-family: "Archivo Narrow";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.titles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-bottom: 1.5px solid black;
+    margin-right: 4%;
+
+    h2 {
+        font-family: "Archivo Narrow";
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+.card-dress-container {
     margin-top: 1.5vh;
     display: flex;
     flex-wrap: wrap;
@@ -294,23 +292,24 @@ text-transform: uppercase;
 
 
     h1.description {
-    font-family: "Archivo Narrow";
-font-size: 16px;
-font-weight:normal;
+        font-family: "Archivo Narrow";
+        font-size: 16px;
+        font-weight: normal;
+
+    }
+
 
 }
-  
 
-}
-.description-price{
-    
+.description-price{   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:0.5vw;
+    gap: 0.5vw;
 
 }
-.photo{
+
+.photo {
     width: 44vw;
 
 }
@@ -377,4 +376,59 @@ text-align: left;
     
 }
 
+.hidden {
+    display: none;
+}
 
+.menu-show {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+
+}
+
+.close {
+    width: 7vw;
+    margin-left: 90vw;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+
+.menu-show h1 {
+    margin: none;
+    margin-left: 5vw;
+    color: var(--Mobile-background, #000);
+    font-family: "Archivo Narrow";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.allcategories {
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5vw;
+}
+
+hr {
+    background-color: #000;
+}
+.plus {
+    width: 24px;
+}
+
+.allcategories-show {
+    margin-top: 20px;
+    line-height: normal;
+}
+
+.without-line-height {
+    line-height: 5px;
+}
