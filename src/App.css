@@ -218,6 +218,7 @@ body {
 }
 
 .addbutton {
+    width: 90vw;
     background-color: white;
     border-radius: 3vw;
     color: var(--Mobile-background, #000);
@@ -432,3 +433,8 @@ hr {
 .without-line-height {
     line-height: 5px;
 }
+
+a {
+    text-decoration: none;
+}
+

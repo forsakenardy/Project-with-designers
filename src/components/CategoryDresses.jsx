@@ -55,7 +55,8 @@ function CategoryDresses() {
             
         </section>
         <section className="dress-card">
-          <img className="photo" src={image2} alt=" Mantra" />
+        <Link to='/dress1'><img className="photo" src={image2} alt=" Mantra" /></Link>
+          
 
           <div className="description-price">
           <h1 className="description">SUMMER MANTRA </h1>
