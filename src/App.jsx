@@ -20,9 +20,18 @@ function App() {
 
   const [isMenuPressed, setIsMenuPressed] = useState(false);
   const [isPlusPressed, setIsPlusPressed] = useState(false);
+  const [isClosing, setIsClosing] = useState(false);
 
   const toggleClass = () => {
-    setIsMenuPressed((prevState) => !prevState);
+    if (isMenuPressed) {
+      setIsClosing(true);
+      setTimeout(() => {
+        setIsMenuPressed(false);
+        setIsClosing(false);
+      }, 500);
+    } else {
+      setIsMenuPressed(true);
+    }
   };
 
   const toggleClass2 = () => {
@@ -49,7 +58,7 @@ function App() {
           <img className="bag" src={Bag} alt="" />
         </div>
       </div>
-      <div className={isMenuPressed ? 'menu-show' : 'hidden'}>
+      <div className={isMenuPressed ? (isClosing ? 'menu-show closing' : 'menu-show') : 'hidden'}>
         <img onClick={toggleClass} className='close' src={close} alt="" />
         <Link onClick={toggleClass} to='/'><h1 className='without-line-height'>HOME</h1></Link>
         <hr />
