@@ -8,7 +8,7 @@ import Girl6 from "../assets/images/girl6.svg"
 
 function HomePage() {
     return (
-        <>
+        <div className="homepage">
             <div className="main">
                 <img className="girl1" src={Girl1} alt="" />
             </div>
@@ -24,7 +24,7 @@ function HomePage() {
 
             </div>
 
-        </>
+        </div>
     )
 }
 

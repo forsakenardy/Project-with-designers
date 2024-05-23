@@ -68,6 +68,10 @@ body {
 .iconartwork {
     width: 11vw;
 }
+.homepage {
+    height: 90vh;
+    overflow-y: auto;
+}
 
 .girl1 {
     width: 100%;
