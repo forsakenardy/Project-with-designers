@@ -6,7 +6,8 @@ import { Link } from "react-router-dom"
 function SummerMantra() {
     return (
         <div className="summermantra-page">
-            <img className="arrow" src={arrow} alt="" />
+            <Link to='/categoryDresses'><img className="arrow" src={arrow} alt="" /></Link>
+    
             <img className="girl7" src={girl7} alt="" />
             <div className="summermantra-info">
                 <div className="summermantra-stock">

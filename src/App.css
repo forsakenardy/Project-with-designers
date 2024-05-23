@@ -248,6 +248,8 @@ body {
     flex-direction: row;
     overflow-x: auto;
     gap: 2vw;
+    
+
 }
 
 .menu1 {
@@ -291,6 +293,8 @@ body {
     justify-content: space-around;
     margin-right: 4%;
     gap: 2vw;
+    overflow-y: auto;
+    height: 57vh;
 
 
     h1.description {
