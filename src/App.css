@@ -107,6 +107,8 @@ body {
     flex-direction: column;
     width: 90vw;
     margin-left: 5vw;
+    height: 90vh;
+    overflow-y: auto;
 }
 
 .arrow {
@@ -245,6 +247,8 @@ body {
 .category-page-container {
     padding-top: 2.5%;
     padding-left: 4%;
+    height: 90vh;
+    overflow-y: auto;
 }
 
 .menuSelec {
