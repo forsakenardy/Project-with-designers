@@ -49,20 +49,9 @@ function App() {
           <img className="bag" src={Bag} alt="" />
         </div>
       </div>
-
-      <Link to='/' />
-      <Link to='/dress1' />
-      <Link to='/categoryDresses' />
-      <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/dress1' element={<SummerMantra />} />
-        <Route path='/categoryDresses' element={<CategoryDresses />} />
-        <Route path='/AddToBag' element={<AddToBag/>} />
-      </Routes>
-
       <div className={isMenuPressed ? 'menu-show' : 'hidden'}>
         <img onClick={toggleClass} className='close' src={close} alt="" />
-        <h1 className='without-line-height'>HOME</h1>
+        <Link onClick={toggleClass} to='/'><h1 className='without-line-height'>HOME</h1></Link>
         <hr />
         <div className='allcategories'>
           <h1 className='without-line-height'>ALL CATEGORIES</h1>
@@ -71,7 +60,7 @@ function App() {
         <div className={isPlusPressed ? 'allcategories-show' : 'hidden'}>
           <h1>SALE - 60%</h1>
           <h1>BLOUSES</h1>
-          <h1>DRESSES</h1>
+          <Link onClick={toggleClass} to='/categoryDresses'><h1>DRESSES</h1></Link>
           <h1>JACKETS</h1>
           <h1>KNITEWEAR</h1>
           <h1>SHIRTS</h1>
@@ -87,6 +76,15 @@ function App() {
         <hr />
         <h1 className='without-line-height'>PROFESSIONAL ACCES</h1>
       </div>
+
+
+    
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/dress1' element={<SummerMantra />} />
+        <Route path='/categoryDresses' element={<CategoryDresses />} />
+        <Route path='/AddToBag' element={<AddToBag/>} />
+      </Routes>
     </>
   )
 }

@@ -1,5 +1,7 @@
 import girl7 from "../assets/images/girl7.png"
 import arrow from "../assets/images/arrow.svg"
+import AddToBag from "./AddToBag"
+import { Link } from "react-router-dom"
 
 function SummerMantra() {
     return (
@@ -30,9 +32,13 @@ function SummerMantra() {
                     </button>
                 </div>
             </div>
+       
+            <Link className="addbutton" to='/AddToBag'>
             <button className="addbutton">
                 <h2 >ADD TO BAG</h2>
             </button>
+            </Link>
+           
         
         </div>
     )
