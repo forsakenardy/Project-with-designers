@@ -13,6 +13,7 @@ import AddToBag from './components/AddToBag'
 import close from "./assets/images/close.svg"
 import plus from "./assets/images/plus.svg"
 import { useState } from 'react'
+import BagPageTest from './components/BagPageTest'
 
 
 
@@ -84,6 +85,9 @@ function App() {
         <Route path='/dress1' element={<SummerMantra />} />
         <Route path='/categoryDresses' element={<CategoryDresses />} />
         <Route path='/AddToBag' element={<AddToBag/>} />
+        <Route path='/BagPageTest' element={<BagPageTest/>} />
+        
+
       </Routes>
     </>
   )

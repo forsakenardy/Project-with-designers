@@ -1,440 +1,537 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar {
-    display: flex;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-bottom: 3%;
-    border-bottom: 2px solid black;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 3%;
+  display: flex;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 3%;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
 }
 
 .icons1 {
-    display: flex;
-    align-items: center;
-    gap: 5vw;
+  display: flex;
+  align-items: center;
+  gap: 5vw;
 }
 
 .icons1-1-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu {
-    width: 6vw;
-    cursor: pointer;
+  width: 6vw;
+  cursor: pointer;
 }
 
 .icons1-2 {
-    display: flex;
-    width: 54px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+  display: flex;
+  width: 54px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .logo {
-    width: 13vw;
+  width: 13vw;
 }
 
 .icons2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1vw;
-    width: 45vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vw;
+  width: 45vw;
 }
 
 .search {
-    width: 11vw;
+  width: 11vw;
 }
 
 .profile {
-    width: 6vw;
+  width: 6vw;
 }
 
 .bag {
-    width: 5vw;
+  width: 5vw;
 }
 
-
 .iconartwork {
-    width: 11vw;
+  width: 11vw;
 }
 
 .girl1 {
-    width: 100%;
+  width: 100%;
 }
 
 .main2 {
-    display: flex;
-    flex-direction: row;
-    gap: 2vw;
-    margin-left: 4vw;
-    margin-bottom: 2vh;
-    overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  margin-left: 4vw;
+  margin-bottom: 2vh;
+  overflow-x: auto;
 }
 
 .best-sellers {
-    color: var(--Mobile-background, #000);
+  color: var(--Mobile-background, #000);
 
-    text-align: center;
-    font-family: "Archivo Narrow";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
+  text-align: center;
+  font-family: "Archivo Narrow";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .girls {
-    height: 100vw;
+  height: 100vw;
 }
 
 .summermantra-page {
-    display: flex;
-    flex-direction: column;
-    width: 90vw;
-    margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin-left: 5vw;
 }
 
 .arrow {
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
-    margin-left: 4vw;
-    width: 3vw;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  margin-left: 4vw;
+  width: 3vw;
 }
 
 .summermantra-stock {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .summermantra-stock h1 {
-    color: var(--Mobile-background, #000);
+  color: var(--Mobile-background, #000);
 
-    font-family: "Archivo Narrow";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: uppercase;
+  font-family: "Archivo Narrow";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .summermantra-paragraph {
-    color: var(--Mobile-background, #000);
-    font-family: "Archivo Narrow";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: var(--Mobile-background, #000);
+  font-family: "Archivo Narrow";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .sizes {
-    display: flex;
-    flex-direction: row;
-    gap: 2vw;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
 }
 
 .sizes1 {
-    width: 7vw;
-    height: 7vw;
-    border-radius: 50%;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--Mobile-background, #000);
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    cursor: pointer;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--Mobile-background, #000);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
 }
 
 .sizes1:hover {
-    transition: 0.5s;
-    background-color: #000;
-    color: white;
+  transition: 0.5s;
+  background-color: #000;
+  color: white;
 }
 
 .colors-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1.5vh;
-    margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5vh;
+  margin-top: 2vh;
 }
 
 .color1 {
-    background-color: #976168;
-    border: none;
+  background-color: #976168;
+  border: none;
 }
 
 .color1:hover {
-    background-color: #976168;
-    border: 2px solid black;
+  background-color: #976168;
+  border: 2px solid black;
 }
 
 .color2 {
-    background-color: #7E795C;
-    border: none;
+  background-color: #7e795c;
+  border: none;
 }
 
 .color2:hover {
-    background-color: #7E795C;
-    border: 2px solid black;
+  background-color: #7e795c;
+  border: 2px solid black;
 }
 
 .colors-container button {
-    background-color: white;
-    border-radius: 3vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 7vw;
-    gap: 6vw;
+  background-color: white;
+  border-radius: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 7vw;
+  gap: 6vw;
 }
 
 .colors-container button h1 {
-    color: var(--Mobile-background, #000);
+  color: var(--Mobile-background, #000);
 
-    font-family: Inter;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .addbutton {
-    width: 90vw;
-    background-color: white;
-    border-radius: 3vw;
-    color: var(--Mobile-background, #000);
-    margin-bottom: 5vw;
+  width: 90vw;
+  background-color: white;
+  border-radius: 3vw;
+  color: var(--Mobile-background, #000);
+  margin-bottom: 5vw;
 }
 
 .addbutton h2 {
-    text-align: center;
-    font-family: "Archivo Narrow";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: uppercase;
+  text-align: center;
+  font-family: "Archivo Narrow";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
 }
-
 
 /*categoryDresses*/
 
 .category-page-container {
-    padding-top: 2.5%;
-    padding-left: 4%;
+  padding-top: 2.5%;
+  padding-left: 4%;
 }
 
 .menuSelec {
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    gap: 2vw;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 2vw;
 }
 
+.Dborder {
+  background-color: #000;
+  color: #dcdcdc;
+}
 .menu1 {
-    padding: 2vw 4vw;
-    border: 1px solid #dcdcdc;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    font-family: "Archivo Narrow";
-    font-size: 16px;
-    font-weight: 500;
+  padding: 2vw 4vw;
+  border: 3px solid #dcdcdc;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-family: "Archivo Narrow";
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.with-MR {
+  margin-right: 4%;
 }
 
 .title1 {
-    text-align: center;
-    font-family: "Archivo Narrow";
-    font-size: 24px;
-    font-weight: 400;
+  text-align: center;
+  font-family: "Archivo Narrow";
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .titles-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 
-    border-bottom: 1.5px solid black;
-    margin-right: 4%;
+  border-bottom: 1.5px solid black;
+  margin-right: 4%;
 
-    h2 {
-        font-family: "Archivo Narrow";
-        font-size: 20px;
-        font-weight: 500;
-    }
+  h2 {
+    font-family: "Archivo Narrow";
+    font-size: 20px;
+    font-weight: 500;
+  }
 }
 
 .card-dress-container {
-    margin-top: 1.5vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-right: 4%;
-    gap: 2vw;
+  margin-top: 1.5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 4%;
+  gap: 2vw;
 
-
-    h1.description {
-        font-family: "Archivo Narrow";
-        font-size: 16px;
-        font-weight: normal;
-
-    }
-
-
+  h1.description {
+    font-family: "Archivo Narrow";
+    font-size: 16px;
+    font-weight: normal;
+  }
 }
 
-.description-price{   
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 0.5vw;
-
+.description-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.5vw;
 }
 
 .photo {
-    width: 44vw;
-
+  width: 44vw;
 }
 
 /**ADDTOBAGPAGE*/
 
-.AddToBag-container{
-
-    height: 80vh;
-    padding-top: 2.5%;
-    padding-left: 2.5%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-  
-
+.AddToBag-container {
+  height: 80vh;
+  padding-top: 2.5%;
+  padding-left: 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.message{
-    font-family: Archivo Narrow;
-font-size: 16px;
-font-weight: 500;
-line-height: 21.55px;
-text-align: left;
-
-
-
+.message {
+  font-family: Archivo Narrow;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.55px;
+  text-align: left;
 }
-.All-btnAddToBag-container{
+.All-btnAddToBag-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.BtnAddtoBagB {
+  width: 90vw;
+  background-color: #000;
+  border-radius: 3vw;
+  color: var(--Mobile-background, white);
+  margin-bottom: 5vw;
+}
 
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    
-    
-    
-}
-.BtnAddtoBagB{
-    width: 100%;
-    height: 8vh;
-    border-radius: 12px 12px 12px 12px;
-    background-color: #000;
-    color: white;
-    font-family: Archivo Narrow;
-    font-size: 16px;
-    margin-bottom: 0.8vh;
-   
-    
-}
-.BtnAddtoBag{
-    
-    width: 100%;
-    height: 8vh;
-    border-radius: 12px 12px 12px 12px;
-    font-family: Archivo Narrow;
-    font-size: 16px;
-    
-    
-    
-    
+.BtnAddtoBag {
+  width: 90vw;
+  background-color: white;
+  border-radius: 3vw;
+  color: var(--Mobile-background, #000);
+  margin-bottom: 5vw;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .menu-show {
-    width: 100vw;
-    height: 100vh;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: auto;
-
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
 }
 
 .close {
-    width: 7vw;
-    margin-left: 90vw;
-    margin-top: 6vh;
-    margin-bottom: 3vh;
+  width: 7vw;
+  margin-left: 90vw;
+  margin-top: 6vh;
+  margin-bottom: 3vh;
 }
 
 .menu-show h1 {
-    margin: none;
-    margin-left: 5vw;
-    color: var(--Mobile-background, #000);
-    font-family: "Archivo Narrow";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    text-transform: uppercase;
+  margin: none;
+  margin-left: 5vw;
+  color: var(--Mobile-background, #000);
+  font-family: "Archivo Narrow";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .allcategories {
-    height: 32px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 5vw;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 5vw;
 }
 
 hr {
-    background-color: #000;
+  background-color: #000;
 }
 .plus {
-    width: 24px;
+  width: 24px;
 }
 
 .allcategories-show {
-    margin-top: 20px;
-    line-height: normal;
+  margin-top: 20px;
+  line-height: normal;
 }
 
 .without-line-height {
-    line-height: 5px;
+  line-height: 5px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+/**BAGPAGETEST*/
+.BagPageTest-container {
+  padding-top: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
 }
 
+.bpt-arrow {
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  margin-left: 4vw;
+  width: 3vw;
+  gap: 3vw;
+}
+.bpt-title {
+  text-align: center;
+  font-family: "Archivo Narrow";
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 3vw;
+}
+.btp-img {
+  width: 40%;
+}
+
+.bpt-girl7 {
+  width: 95%;
+  height: 100%;
+}
+.bpt-full-description {
+  width: 40%;
+  margin-left: 1.5vw;
+  font-family: "Archivo Narrow";
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.bpt-drs-sizes {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: var(--Mobile-background, #000);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+.bpt-colors-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1.5vh;
+  margin-top: 2vh;
+  gap: 4px;
+}
+
+.btp-color-sizes1 {
+  width: 8vw;
+  height: 4vh;
+  border-radius: 50%;
+  background-color: #976168;
+}
+.btp-sizeN {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+
+.black {
+  background-color: #000;
+  border-radius: 3vw;
+  color: var(--Mobile-background, white);
+  justify-content: center;
+  background-color: #000;
+  color: var(--Mobile-background, white);
+  margin-top: 40%;
+}
+.bpt-number-x {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btp-sizeN {
+  color: var(--Mobile-background, #000);
+
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.bag-card {
+  width: 343px;
+  height: 239px;
+  display: flex;
+  flex-direction: row;
+}
+.arrow-and-title {
+  display: flex;
+  justify-content: center;
+}
+.centrar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
