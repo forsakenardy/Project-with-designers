@@ -60,10 +60,8 @@ function App() {
             </div>
           </div>
           <div className="icons1-2">
-            <img onClick={() => {
-            toggleClass()
-            toggleClass3()
-          }} className="logo" src={Logo} alt="" />
+            <Link to='/'><img className="logo" src={Logo} alt="" /></Link>
+            
           </div>
         </div>
         <div className="icons2">

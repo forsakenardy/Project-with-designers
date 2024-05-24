@@ -224,11 +224,13 @@ body {
 }
 
 .addbutton {
+  bottom: 5vh;
+  left: 5vw;
   width: 90vw;
   background-color: white;
   border-radius: 3vw;
   color: var(--Mobile-background, #000);
-  margin-bottom: 5vw;
+  margin-bottom: 5vh;
 }
 
 .addbutton h2 {
@@ -330,12 +332,9 @@ body {
   width: 44vw;
 }
 
-/**ADDTOBAGPAGE*/
-
 .AddToBag-container {
   height: 80vh;
   padding-top: 2.5%;
-  padding-left: 2.5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -360,7 +359,7 @@ body {
   background-color: #000;
   border-radius: 3vw;
   color: var(--Mobile-background, white);
-  margin-bottom: 5vw;
+  margin-bottom: 1vh;
 }
 
 .BtnAddtoBag {
@@ -368,7 +367,7 @@ body {
   background-color: white;
   border-radius: 3vw;
   color: var(--Mobile-background, #000);
-  margin-bottom: 5vw;
+  margin-bottom: 5vh;
 }
 
 
@@ -491,14 +490,14 @@ hr {
 a {
   text-decoration: none;
 }
-/**BAGPAGETEST*/
+
 .BagPageTest-container {
   padding-top: 2.5%;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
   display: flex;
   flex-direction: column;
-  margin-left: 5vw;
+  margin-left: 4vw;
+  overflow-y: auto;
+
 }
 
 .bpt-arrow {
@@ -513,18 +512,24 @@ a {
   font-family: "Archivo Narrow";
   font-size: 24px;
   font-weight: 400;
-  margin-left: 3vw;
+  margin-left: 25vw;
 }
-.btp-img {
-  width: 40%;
+
+.bpt-paragraph {
+  color: var(--Mobile-background, #000);
+
+font-family: "Archivo Narrow";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .bpt-girl7 {
-  width: 95%;
-  height: 100%;
+  width: 46vw;
 }
 .bpt-full-description {
-  width: 40%;
+  width: 46%;
   margin-left: 1.5vw;
   font-family: "Archivo Narrow";
   font-size: 10px;
@@ -541,11 +546,12 @@ a {
   justify-content: center;
   align-items: center;
   color: var(--Mobile-background, #000);
-  font-family: Inter;
-  font-size: 14px;
+  font-family: "Archivo Narrow";
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-transform: uppercase;
   cursor: pointer;
 }
 .bpt-colors-container {
@@ -556,17 +562,13 @@ a {
   margin-top: 2vh;
   gap: 4px;
 }
-
-.btp-color-sizes1 {
-  width: 8vw;
-  height: 4vh;
-  border-radius: 50%;
-  background-color: #976168;
-}
 .btp-sizeN {
-  display: flex;
-  flex-direction: row;
-  gap: 2vw;
+  color: var(--Mobile-background, #000);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .black {
@@ -574,9 +576,8 @@ a {
   border-radius: 3vw;
   color: var(--Mobile-background, white);
   justify-content: center;
-  background-color: #000;
-  color: var(--Mobile-background, white);
   margin-top: 40%;
+  position: absolute;
 }
 .bpt-number-x {
   margin-top: 1vh;
@@ -596,18 +597,39 @@ a {
 }
 
 .bag-card {
-  width: 343px;
-  height: 239px;
+  width: 92vw;
   display: flex;
   flex-direction: row;
+  padding-bottom: 1vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.20);
 }
 .arrow-and-title {
+  width: 90vw;
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 .centrar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.go-to-bag {
+text-align: center;
+font-family: "Archivo Narrow";
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
+
+}
+.last-button {
+  background-color: white;
+  border-radius: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 7vw;
+  gap: 6vw;
 }
