@@ -271,10 +271,7 @@ body {
     gap: 2vw;
 }
 
-.Dborder {
-  background-color: #000;
-  color: #dcdcdc;
-}
+
 .menu1 {
 
   padding: 2vw 4vw;
@@ -287,6 +284,10 @@ body {
   font-weight: 500;
   white-space: nowrap;
 }
+.Dborder {
+  border: 3px solid black;
+}
+
 .with-MR {
   margin-right: 4%;
 }
