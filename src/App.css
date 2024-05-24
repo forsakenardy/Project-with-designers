@@ -166,11 +166,22 @@ body {
   line-height: normal;
   cursor: pointer;
 }
-
-.sizes1:hover {
-  transition: 0.5s;
+.sizes1-black{
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #000;
   color: white;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
 }
 
 .colors-container {
@@ -187,7 +198,7 @@ body {
   border: none;
 }
 
-.color1:hover {
+.color1-border {
   background-color: #976168;
   border: 2px solid black;
 }
@@ -197,7 +208,7 @@ body {
   border: none;
 }
 
-.color2:hover {
+.color2-border{
   background-color: #7e795c;
   border: 2px solid black;
 }

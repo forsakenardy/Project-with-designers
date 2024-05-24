@@ -54,14 +54,14 @@ function App() {
           <div className="icons1-1">
             <div className="icons1-1-1">
               <img onClick={() => {
-            toggleClass()
-            toggleClass3()
-          }} className="menu" src={Menu} alt="" />
+                toggleClass()
+                toggleClass3()
+              }} className="menu" src={Menu} alt="" />
             </div>
           </div>
           <div className="icons1-2">
             <Link to='/'><img className="logo" src={Logo} alt="" /></Link>
-            
+
           </div>
         </div>
         <div className="icons2">
@@ -73,19 +73,17 @@ function App() {
       </div>
       <div className={isMenuPressed ? (isClosing ? 'menu-show closing' : 'menu-show') : 'hidden'}>
         <img onClick={() => {
-            toggleClass()
-            // toggleClass3()
-          }} className='close' src={close} alt="" />
+          toggleClass()
+        }} className='close' src={close} alt="" />
         <Link onClick={() => {
-            toggleClass()
-            // toggleClass3()
-          }} to='/'><h1 className='without-line-height'>HOME</h1></Link>
+          toggleClass()
+        }} to='/'><h1 className='without-line-height'>HOME</h1></Link>
         <hr />
         <div className='allcategories'>
           <h1 className='without-line-height'>ALL CATEGORIES</h1>
           <img onClick={toggleClass2} className='plus' src={isPlusPressed ? less : plus} alt='' />
         </div>
-        <div className={isMenuPressed && !isPlusPressed ?'hidden' :(isPlusPressed ? 'allcategories-show' : 'allcategories-hide ') }>
+        <div className={isMenuPressed && !isPlusPressed ? 'hidden' : (isPlusPressed ? 'allcategories-show' : 'allcategories-hide ')}>
           <h1>SALE - 60%</h1>
           <h1>BLOUSES</h1>
           <Link onClick={toggleClass} to='/categoryDresses'><h1>DRESSES</h1></Link>
@@ -104,17 +102,13 @@ function App() {
         <hr />
         <h1 className='without-line-height'>PROFESSIONAL ACCES</h1>
       </div>
-
-
-
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/dress1' element={<SummerMantra />} />
         <Route path='/categoryDresses' element={<CategoryDresses />} />
+        <Route path='/AddToBag' element={<AddToBag />} />
+        <Route path='/BagPageTest' element={<BagPageTest />} />
 
-        <Route path='/AddToBag' element={<AddToBag/>} />
-        <Route path='/BagPageTest' element={<BagPageTest/>} />
-  
       </Routes>
     </>
   )
